@@ -5,14 +5,17 @@
     <div class="details">
 
         <div class="banner" style="background-image: url('<?php echo $this->gift->big_image ?>');">
+
+        
         <img src="<?php echo $this->gift->big_image ?>" style="width: 110%; display: none;" />
-
+       
             <div  class="container inner-banner">
-
-                <div class="left">
-                    <h1>#<?php echo $this->gift->name ?></h1>
-                    <div><?php echo $this->gift->slogan ?></div>
-                </div>
+                
+                    <div class="left">
+                    <a href="index.php"><h1>#<?php echo $this->gift->name ?></h1> </a>
+                    <a href="index.php">    <div><?php echo $this->gift->slogan ?></div></a>
+                    </div>
+               
                 <div class="right">
                     <!-- <p>გაუგზავნე "<?php echo $this->gift->name ?>" - ის სასაჩუქრე ვაუჩერი </p> -->
                     <!-- <button class="start-process"><span ng-show="currentStep == 1">აჩუქე</span><span ng-show="currentStep > 1">გააგრძელე</span></button> -->
@@ -26,17 +29,17 @@
 
         </div>
 
-        <div class="button-row " style="height: 100px; background: lightgray; height: 50px; border-top: 0px solid lightgray;">
+        <!-- <div class="button-row " style="height: 100px; background: lightgray; height: 50px; border-top: 0px solid lightgray;">
 
             <div  class="container " style="height: 100px;">
                
                 
-                <a style="width: <?php echo $this->button_width ?>%;" data-container="brand-galery" href="javascript:void(0)" class="big-tab active">გალერეაა</a>
-               <a style="width: <?php echo $this->button_width ?>%;" data-container="brand-info" href="javascript:void(0)" class="first  big-tab">ინფორმაცია სურათზე</a>
+                <a style="width: <?php// echo $this->button_width ?>%;" data-container="brand-galery" href="javascript:void(0)" class="big-tab active">გალერეაა</a>
+               <a style="width: <?php// echo $this->button_width ?>%;" data-container="brand-info" href="javascript:void(0)" class="first  big-tab">ინფორმაცია სურათზე</a>
               
             </div>
 
-        </div>
+        </div> -->
 
         <div class="gift-container details-container">
 
