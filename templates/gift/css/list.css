@@ -21,9 +21,9 @@ header and footer will hug the whole screen.*/
     width: 300px;
     height: 500px;
     margin: 0 5px 30px;
-    background-color: #000000;
-    border-bottom: 1px solid #000000;
-    border-right: 1px solid #000000;
+    background-color: lightgray;
+    /* border-bottom: 1px solid #000000; */
+    /* border-right: 1px solid #000000; */
 }
 
 .giftPopup{
@@ -122,14 +122,6 @@ header and footer will hug the whole screen.*/
 */
 
 
-.list-banner-bg{
-    position: relative;
-    margin-top: 90px;
-    width: 100%;
-    height: 95vh;
-    background-size: 110% auto;
-    background-repeat: no-repeat;
-}
 
 .list-banner-bg .bottom-shadow{
     position: absolute;
@@ -141,9 +133,6 @@ header and footer will hug the whole screen.*/
     background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.20) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.20) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
-
-
-
 }
 
 .list-banner{
@@ -155,7 +144,7 @@ header and footer will hug the whole screen.*/
     display: none;
     height: 400px;
     z-index: 555;
-
+    overflow: hidden;
 }
 
 .arrow-slide-to{
@@ -166,7 +155,6 @@ header and footer will hug the whole screen.*/
     bottom: 100px;
     left: 48%;
     cursor: pointer;
-
     background-image: url("../../../images/sprite.png");
     background-position: -175px 0px;
     background-repeat: no-repeat;
@@ -181,7 +169,7 @@ header and footer will hug the whole screen.*/
     width: auto;
     height: 100px;
     font-family: 'light-alokado' !important;
-    width: 700px;
+    /* width: 700px; */
     text-align: left;
     line-height: 30px;
 }
@@ -222,7 +210,6 @@ header and footer will hug the whole screen.*/
     width: 170px;
 
 }
-
 
 .banner-with-love span{
     display: block;

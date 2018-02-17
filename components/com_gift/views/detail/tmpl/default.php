@@ -26,7 +26,7 @@
 
         </div>
 
-        <div class="button-row " style="height: 100px; background: black; height: 50px; border-top: 2px solid lightgray;">
+        <div class="button-row " style="height: 100px; background: lightgray; height: 50px; border-top: 0px solid lightgray;">
 
             <div  class="container " style="height: 100px;">
                

@@ -1,7 +1,7 @@
 
 .details{
     position: absolute;
-    top: 90px;
+    /* top: 90px; */
     width: 100vw;
     position: relative;
 }
@@ -126,11 +126,11 @@
     line-height: 50px;
     text-align: center;
     font-size: 11pt;
-    border-right: 1px solid #000000;
+    border-right: 1px solid gray;
 }
 
 .button-row .container a:hover{
-    background-color: #252525;
+    background-color:lightgray;
     color: #FFFFFF;
 }
 
@@ -139,8 +139,8 @@
 }
 
 .button-row .container .active {
-    border-bottom: 2px solid #000000;
-    background-color: #111111;
+    /* border-bottom: 2px solid #000000; */
+    background-color: gray;;
 }
 
 
@@ -217,7 +217,7 @@
     margin-bottom: 5px;
     display: inline-block;
     border: 7px solid lightgray;
-    box-shadow: 10px 10px 5px black;;
+    /* box-shadow: 10px 10px 5px black;; */
 }
 
 .brand-galery .item img{

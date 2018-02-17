@@ -27,7 +27,8 @@ a{
 }
 
 body {
-    background: #181818;
+    /* background: #181818; */
+    background: white;
     font:12px verdana, sans-serif;
     color:#000;
     font-family: 'alokado';
@@ -479,7 +480,7 @@ input.ng-invalid.ng-touched{
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
-    background-color: #353535;
+    background-color: lightgray;
 }
 
 
@@ -558,14 +559,14 @@ input.ng-invalid.ng-touched{
 
 
 .footer2{
-    background: #000000;
+    background: lightgray;
     height: auto;
-    border-top: 1px solid #949494;
+    border-top: px solid #949494;
 }
 
 .footer2 .footer-container2{
     padding-top: 30px;
-    border-bottom: 1px solid #353535;
+    border-bottom: 2px white;
     height: auto;
     padding-bottom: 90px;
 }

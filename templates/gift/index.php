@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css" type="text/css" />
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/lightbox.css" type="text/css" />
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/process.css" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/media.css" type="text/css" />
 
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/lib/jquery-1.11.3.min.js"></script>
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/custom.js"></script>
@@ -39,6 +40,7 @@
 </head>
 <body ng-app="gift" ng-controller="GiftController">
 
+        <?php /* ?>
     <div id="headerbg" class="header">
 
         <div class="header-top">
@@ -54,8 +56,6 @@
 
             </div>
         </div>
-
-
         <div class="header-bottom">
             <div class="header-container">
 
@@ -76,7 +76,7 @@
             </div>
         </div>
     </div>
-
+<?php */ ?>
 
     <jdoc:include type="message" />
     <jdoc:include type="component" />
@@ -93,16 +93,16 @@
         <footer class="footer footer2">
             <div class="footer-container footer-container2">
 
-                <div class="left">
+                <!-- <div class="left">
                     <span>მომხმარებლების ცხელი ხაზი</span>
                     <p>+995 (558) 24 44 88</p>
-                </div>
+                </div> -->
 
-                <div class="right">
+                <!-- <div class="right">
                     ჩვენი ვებ გვერდის ( wwwsiurpriz.ge ) მეშვეობით თქვენ შეგიძლიათ ონლაინ რეჟიმში შეარჩიოთ სასურველი ბრენდის ან მაღაზიის სასაჩუქრე ბარათი (eGiftCard) და გაუგზავნოთ სასურველ ადრესატს ელექტრონული ან ფიზიკური ფორმით
                     საიტზე არ არის საჭირო რეგისტრაციის გავლა. ამიტომ აუცილებელია გადახდისას აუცილელად მიუთითოთ თქვენი ელ-ფოსტის მისამართი სადაც გადმოგეგზავნებათ დასტური გადახდის შესახებ და ლინკი ვაუჩერზე გადასასვლელად.
                     ვაუჩერის შეძენა შეძენა ხორციელდება  ქართული Visa ან MasterCard პლასტიკური ბარათების საშუალებით
-                </div>
+                </div> -->
 
             </div>
             <div class="footer-container footer-container3">

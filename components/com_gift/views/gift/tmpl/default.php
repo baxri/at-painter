@@ -2,6 +2,7 @@
 
 
 <div class="list-banner-bg banner" style="background-image: url('images/mtavari.jpg');">
+
     <img src="images/mtavari.jpg" style="width: 110%; display: none;" />
     <div>
         <div class="gift-container list-banner">
