@@ -1,0 +1,5 @@
+/.idea
+/.idea/*
+
+configuration.php
+ignore/

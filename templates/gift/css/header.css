@@ -1,0 +1,624 @@
+/*Our full length header.
+We align the text center so it shows up in the middle.
+If you prefer you could right or left align it.*/
+
+@font-face {
+    font-family: 'alokado';
+    src: url('../fonts/alokado.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'light-alokado';
+    src: url('../fonts/alokado-extralight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1, p, body, html {
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background: #181818;
+    font:12px verdana, sans-serif;
+    color:#000;
+    font-family: 'alokado';
+}
+
+input{
+    font-family: 'alokado';
+}
+
+div{
+    font-family: 'alokado';
+}
+
+p{
+    font-family: 'alokado';
+}
+
+textarea{
+    font-family: 'alokado';
+}
+
+ul {
+    list-style: none;
+}
+
+div{
+    display: block;
+}
+
+input.ng-invalid.ng-touched{
+    border: 1px solid #FF9E9E;
+    padding: -1px;
+}
+
+.amount-input.ng-invalid.ng-touched{
+    border-bottom: 2px solid white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+
+.hide{
+    display: none;
+}
+
+
+.gift-container {
+    position:relative;
+    overflow:auto;
+    margin:0 auto;
+    top: 10px;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.header-container {
+    margin:0 auto;
+    #border: 1px solid red;
+    height: auto;
+    height: 100%;
+    text-align: center;
+}
+
+.header-container div{
+    display: block;
+}
+
+.footer-container {
+    overflow:auto;
+    position:relative;
+    margin:0 auto;
+}
+
+
+
+.gift-container.article{
+    font-size: 10pt;
+    text-align: justify;
+    line-height: 27px;
+    top: 170px;
+}
+
+@media (min-width: 300px) {
+
+    .gift-container {
+        width: 250px;
+    }
+    .container {
+        width: 250px;
+    }
+    .footer-container {
+        width: 250px;
+    }
+    .header-container {
+        width: 260px;
+    }
+    .gift-container-inner{
+        width: 260px;
+    }
+
+    .footer li{
+        #width: 188px;
+        text-align: center;
+        border-right: 0px solid #808080 !important;
+        line-height: 30px;
+    }
+}
+
+@media (min-width: 430px) {
+    .gift-container {
+        width: 400px;
+    }
+    .container {
+        width: 400px;
+    }
+    .footer-container {
+        width: 400px;
+    }
+    .header-container {
+        width: 310px;
+    }
+    .gift-container-inner{
+        width: 310px;
+    }
+}
+
+@media (min-width: 730px) {
+    .gift-container {
+        width: 630px;
+    }
+    .container {
+        width: 630px;
+    }
+    .footer-container {
+        width: 700px;
+    }
+    .header-container {
+        width: 630px;
+    }
+    .gift-container-inner{
+        width: 630px;
+    }
+}
+
+@media (min-width: 1030px){
+    .gift-container {
+        width: 935px;
+    }
+    .container {
+        width: 935px;
+    }
+    .footer-container {
+        width: 1000px;
+    }
+    .header-container {
+        width: 935px;
+    }
+    .gift-container-inner{
+        width: 935px;
+    }
+
+}
+
+@media (min-width: 1330px) {
+
+    .gift-container {
+        width: 1250px;
+    }
+    .container {
+        width: 1250px;
+    }
+    .footer-container {
+        width: 1300px;
+    }
+    .header-container {
+        width: 1250px;
+    }
+    .gift-container-inner{
+        width: 1250px;
+    }
+}
+/*
+@media (min-width: 1630px) {
+    .gift-container {
+        width: 1600px;
+    }
+    .footer-container {
+        width: 1600px;
+    }
+    .header-container {
+        width: 1560px;
+    }
+    .gift-container-inner{
+        width: 1560px;
+    }
+}
+*/
+
+.header {
+    display: block;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 131px;
+    
+}
+
+.header-top{
+    width: 100%;
+    height: 90px;
+    background-color: rgba(22, 22, 22, 0.92);
+    border-bottom: 2px solid lightgray;
+}
+
+.header-bottom{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: rgba(12, 12, 12, 0.45);
+    border-bottom: 2px solid white;
+    
+}
+
+
+.header-fb-pugins{
+    width: auto;
+    position: relative;
+    float: right;
+    top: 9px;
+}
+
+.header-fb-pugins div{
+    float: left;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+.header-fb-pugins div:first-child{
+    color: gray;
+}
+
+/*
+* Like and Send with love
+*
+*/
+
+.with-lowe span{
+    display: block;
+    float: left;
+}
+
+.with-lowe .heart{
+    width: 25px;
+    height: 25px;
+    background-image: url("../../../images/sprite.png");
+    background-position: -3px -69px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+/*
+* END Like and Send with love
+*
+*/
+
+
+
+
+.header a.logo {
+    display: block;
+    position: relative;
+    z-index: 3;
+    float: left;
+    width: auto;
+    height: 40px;
+    margin: 10px 0 25px 0;
+    margin-left: 10px;
+}
+
+.slogan{
+    width: 350px;
+    padding-left: 30px;
+    float: left;
+    color: white;
+    height: 130px;
+    font-size: 10pt;
+    font-style: italic;
+    color: white;
+    #border: 1px solid red;
+}
+
+.slogan p{
+    position: absolute;
+    bottom: 41px;
+}
+
+
+.header .categories {
+    float: right;
+    right: 0;
+    z-index: 3;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.16);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 90px;
+
+}
+
+.header .categories button span{
+    font-family: 'alokado';
+    padding-right: 40px;
+}
+
+.header .categories button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    outline: none;
+    border: 0px;
+    background-color: transparent;
+    height: 89px;
+    padding-right: 30px;
+}
+
+.header .categories button:hover{
+    background-color: #F5F5F5;
+}
+
+
+.header .categories button span {
+    display: inline-block;
+    position: relative;
+    color: gray;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'light-alokado';
+}
+
+.header .categories button span:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25px;
+    height: 19px;
+    background-image: url("../../../../giftcards/images/sprite.png");
+    background-position: -3px -3px;
+    background-repeat: no-repeat;
+
+}
+
+.header .categories.active button span:after {
+    background-position: -30px -3px;
+}
+
+
+.categories-block {
+    display: inline-block;
+    margin-top: 4px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 127px;
+    width: 100%;
+    min-height: 260px;
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    height: auto;
+}
+
+.categories-block-inner{
+    display: inline-block;
+    width: 100%;
+    height: auto !important;
+    max-height: 600px;
+    overflow:auto;
+}
+
+
+.categories-block-inner-content{
+   #height: 100%;  #overflow:auto;
+}
+
+.categories-block ul{
+    display: block;
+    margin: 55px 0 20px;
+    width: auto;
+    height: auto;
+}
+
+.categories-block ul li {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border: 1px solid lightgrey;
+    margin-left: -5px;
+    margin-top: -1px;
+    padding: 20px;
+
+}
+
+.categories-block ul li:hover{
+    background-color: #EDEDED;
+}
+
+.categories-block ul li a {
+    color: #999999;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.categories-block ul li a span{
+    padding-top: 10px;
+    display: block;
+}
+
+
+
+
+.footer {
+    position:relative;
+    overflow:auto;
+    margin:0 auto;
+    width: 100%;
+    height: 50px;
+    top: 250px;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background-color: #353535;
+}
+
+
+/*
+* Footer Menu
+*
+*/
+
+.footer ul{
+    display: block;
+    list-style: none;
+    margin-left: -32px;
+}
+
+.footer li {
+    display: block;
+    float: left;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #808080;
+    line-height: 30px;
+
+}
+
+.footer li a{
+    color: #808080;
+}
+
+/*
+* END Footer Menu
+*
+*/
+
+.header-menu{
+    float: left;
+}
+
+
+.header-menu ul{
+    margin: 0px;
+    display: block;
+    list-style: none;
+    margin-left: -32px;
+    height: 40px;
+}
+
+.header-menu li {
+    display: block;
+    float: left;
+    margin-right: 20px;
+    padding-right: 20px;
+    line-height: 40px;
+}
+
+
+.header-menu li a{
+    color: #C5C5C5;
+    font-size: 10pt;
+}
+
+.header-menu ul .active a {
+    color: #FFFFFF;
+}
+
+/*
+* Header Menu
+*
+*/
+
+
+
+/*
+* END Header Menu
+*
+*/
+
+
+.footer2{
+    background: #000000;
+    height: auto;
+    border-top: 1px solid #949494;
+}
+
+.footer2 .footer-container2{
+    padding-top: 30px;
+    border-bottom: 1px solid #353535;
+    height: auto;
+    padding-bottom: 90px;
+}
+
+.footer2 .footer-container2 .left{
+    width: 40%;
+    position: relative;
+    float: left;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.footer2 .footer-container2 .left span{
+    color: gray;
+    line-height: 30px;
+}
+
+.footer2 .footer-container2 .left p{
+    color: gray;
+}
+
+.footer2 .footer-container2 .right{
+    position: relative;
+    float: right;
+    width: 40%;
+    padding-right: 10px;
+    color: gray;
+    text-align: justify;
+    line-height: 18px;
+}
+
+
+.footer2 .footer-container3{
+    padding-top: 10px;
+    height: 70px;
+}
+
+.footer2 .footer-container3 div{
+    color: gray;
+    font-size: 10pt;
+}
+
+.footer2 .footer-container3 .left{
+    position: relative;
+    float: left;
+}
+
+.footer2 .footer-container3 .right{
+    position: relative;
+    float: right;
+}
+
+
+/*If you are going to use floats then you will NEED to clear the
+footer so it doesn't bunch the content up*/
+.clear {clear:both;}
